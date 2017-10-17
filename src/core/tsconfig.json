@@ -1,0 +1,12 @@
+{
+    "extends": "../../modules.tsconfig.json",
+    "baseUrl": ".",
+    "compilerOptions": {
+        "outDir": "../../dist/core/"
+    },
+    "files": [
+        "index.ts",
+        
+        "vector.ts"
+    ]
+}

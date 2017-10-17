@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "strict": true,
+        "skipLibCheck": true,
+        "baseUrl": ".",
+        "paths": {
+            "core": ["./dist/core/index.d.ts"],
+            "core/*": ["./dist/core/*"],
+            "shapes": ["./dist/shapes/index.d.ts"],
+            "shapes/*": ["./dist/shapes/*"],
+            "renderer": ["./dist/renderer/index.d.ts"],
+            "renderer/*": ["./dist/renderer/*"]
+        }
+    }
+}
