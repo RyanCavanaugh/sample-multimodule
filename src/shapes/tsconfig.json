@@ -1,0 +1,12 @@
+{
+    "extends": "../../modules.tsconfig.json",
+    "compilerOptions": {
+        "outDir": "../../dist/shapes/"
+    },
+    "files": [
+        "index.ts",
+        "sphere.ts",
+        "plane.ts",
+        "shapes.ts"
+    ]
+}

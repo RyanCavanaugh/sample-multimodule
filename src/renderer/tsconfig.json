@@ -1,0 +1,11 @@
+{
+    "extends": "../../modules.tsconfig.json",
+    "compilerOptions": {
+        "outDir": "../../dist/renderer/"
+    },
+    "files": [
+        "index.ts",
+        "renderer.ts",
+        "camera.ts"
+    ]
+}
